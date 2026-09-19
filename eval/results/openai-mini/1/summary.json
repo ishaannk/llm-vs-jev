@@ -1,0 +1,124 @@
+{
+  "model": "gpt-5-mini",
+  "n": 240,
+  "accuracy": 0.7,
+  "accuracy_strict_borderline": 0.6083333333333333,
+  "gate_sweep": {
+    "0.5": 0.6583333333333333,
+    "0.6": 0.6333333333333333,
+    "0.7": 0.5791666666666667,
+    "0.8": 0.49166666666666664,
+    "0.9": 0.37083333333333335,
+    "0.95": 0.2375,
+    "0.99": 0.008333333333333333
+  },
+  "invalid_rate": 0.0,
+  "mean_repair_attempts": 0.0,
+  "latency_ms": {
+    "p50": 2198.258399963379,
+    "p95": 2970.96559999045,
+    "p99": 3336.57459996175
+  },
+  "cost": {
+    "cold_usd_per_1k": 0.5272093750000001,
+    "warm_measured_usd_per_1k": 0.523369375,
+    "warm_modelled_usd_per_1k": 0.299734375,
+    "cached_tokens_reported": 4096,
+    "prefix_tokens": 1011,
+    "mean_input_tokens": 1160.1375,
+    "mean_output_tokens": 118.5875
+  },
+  "ece": 0.2586666666666667,
+  "reliability": [
+    {
+      "bin": 0.0,
+      "n": 0,
+      "confidence": null,
+      "accuracy": null
+    },
+    {
+      "bin": 0.1,
+      "n": 0,
+      "confidence": null,
+      "accuracy": null
+    },
+    {
+      "bin": 0.2,
+      "n": 0,
+      "confidence": null,
+      "accuracy": null
+    },
+    {
+      "bin": 0.3,
+      "n": 0,
+      "confidence": null,
+      "accuracy": null
+    },
+    {
+      "bin": 0.4,
+      "n": 3,
+      "confidence": 0.49,
+      "accuracy": 1.0
+    },
+    {
+      "bin": 0.5,
+      "n": 6,
+      "confidence": 0.5666666666666667,
+      "accuracy": 0.8333333333333334
+    },
+    {
+      "bin": 0.6,
+      "n": 11,
+      "confidence": 0.6518181818181819,
+      "accuracy": 0.6363636363636364
+    },
+    {
+      "bin": 0.7,
+      "n": 24,
+      "confidence": 0.7504166666666667,
+      "accuracy": 0.75
+    },
+    {
+      "bin": 0.8,
+      "n": 44,
+      "confidence": 0.8570454545454546,
+      "accuracy": 0.8181818181818182
+    },
+    {
+      "bin": 0.9,
+      "n": 152,
+      "confidence": 0.9675,
+      "accuracy": 0.5921052631578947
+    }
+  ],
+  "escalation": {
+    "budget": 0.05,
+    "n_escalated": 12,
+    "errors_before": 72,
+    "errors_caught": 2,
+    "residual_error_caught": 0.027777777777777776,
+    "accuracy_after": 0.7083333333333334
+  },
+  "confusion": {
+    "benign": {
+      "PASS": 41,
+      "REVIEW": 1,
+      "BLOCK": 18
+    },
+    "borderline": {
+      "PASS": 22,
+      "REVIEW": 0,
+      "BLOCK": 38
+    },
+    "injection": {
+      "PASS": 13,
+      "REVIEW": 0,
+      "BLOCK": 47
+    },
+    "jailbreak": {
+      "PASS": 2,
+      "REVIEW": 0,
+      "BLOCK": 58
+    }
+  }
+}

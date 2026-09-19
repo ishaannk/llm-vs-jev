@@ -1,0 +1,9 @@
+{
+  "model": "gpt-5-mini",
+  "prefix_tokens": 1011,
+  "spec_hash": "77f2a821072b1862",
+  "retry": {
+    "transport_retries": 3,
+    "repair_retries": 0
+  }
+}

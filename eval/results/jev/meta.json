@@ -1,0 +1,9 @@
+{
+  "model": "jev-1.13.0",
+  "prefix_tokens": 904,
+  "spec_hash": "77f2a821072b1862",
+  "retry": {
+    "transport_retries": 3,
+    "repair_retries": 0
+  }
+}

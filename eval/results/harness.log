@@ -1,0 +1,88 @@
+spec 77f2a821072b1862 | 240 items | 3 seeds | ['jev', 'openai', 'openai-mini']
+  [     20s] jev: seed 1/3 item 43/240 | openai: seed 1/3 item 11/240 | openai-mini: seed 1/3 item 7/240
+  [     40s] jev: seed 1/3 item 92/240 | openai: seed 1/3 item 25/240 | openai-mini: seed 1/3 item 15/240
+  [     60s] jev: seed 1/3 item 138/240 | openai: seed 1/3 item 38/240 | openai-mini: seed 1/3 item 24/240
+  [     80s] jev: seed 1/3 item 182/240 | openai: seed 1/3 item 53/240 | openai-mini: seed 1/3 item 33/240
+  [    100s] jev: seed 1/3 item 228/240 | openai: seed 1/3 item 62/240 | openai-mini: seed 1/3 item 43/240
+  [    120s] jev: seed 2/3 item 34/240 | openai: seed 1/3 item 76/240 | openai-mini: seed 1/3 item 52/240
+  [    140s] jev: seed 2/3 item 80/240 | openai: seed 1/3 item 89/240 | openai-mini: seed 1/3 item 60/240
+  [    160s] jev: seed 2/3 item 124/240 | openai: seed 1/3 item 101/240 | openai-mini: seed 1/3 item 68/240
+  [    180s] jev: seed 2/3 item 172/240 | openai: seed 1/3 item 115/240 | openai-mini: seed 1/3 item 77/240
+  [    200s] jev: seed 2/3 item 220/240 | openai: seed 1/3 item 129/240 | openai-mini: seed 1/3 item 86/240
+  [    220s] jev: seed 3/3 item 28/240 | openai: seed 1/3 item 143/240 | openai-mini: seed 1/3 item 95/240
+  [    240s] jev: seed 3/3 item 77/240 | openai: seed 1/3 item 158/240 | openai-mini: seed 1/3 item 103/240
+  [    260s] jev: seed 3/3 item 126/240 | openai: seed 1/3 item 172/240 | openai-mini: seed 1/3 item 111/240
+  [    280s] jev: seed 3/3 item 176/240 | openai: seed 1/3 item 186/240 | openai-mini: seed 1/3 item 120/240
+  [    300s] jev: seed 3/3 item 226/240 | openai: seed 1/3 item 200/240 | openai-mini: seed 1/3 item 129/240
+  [    320s] jev: done | openai: seed 1/3 item 213/240 | openai-mini: seed 1/3 item 137/240
+  [    340s] jev: done | openai: seed 1/3 item 225/240 | openai-mini: seed 1/3 item 145/240
+  [    360s] jev: done | openai: seed 1/3 item 239/240 | openai-mini: seed 1/3 item 155/240
+  [    380s] jev: done | openai: seed 2/3 item 8/240 | openai-mini: seed 1/3 item 164/240
+  [    400s] jev: done | openai: seed 2/3 item 20/240 | openai-mini: seed 1/3 item 173/240
+  [    420s] jev: done | openai: seed 2/3 item 33/240 | openai-mini: seed 1/3 item 180/240
+  [    440s] jev: done | openai: seed 2/3 item 45/240 | openai-mini: seed 1/3 item 189/240
+  [    460s] jev: done | openai: seed 2/3 item 55/240 | openai-mini: seed 1/3 item 198/240
+  [    480s] jev: done | openai: seed 2/3 item 69/240 | openai-mini: seed 1/3 item 207/240
+  [    500s] jev: done | openai: seed 2/3 item 83/240 | openai-mini: seed 1/3 item 215/240
+  [    520s] jev: done | openai: seed 2/3 item 97/240 | openai-mini: seed 1/3 item 224/240
+  [    540s] jev: done | openai: seed 2/3 item 110/240 | openai-mini: seed 1/3 item 232/240
+  [    560s] jev: done | openai: seed 2/3 item 122/240 | openai-mini: seed 1/3 item 240/240
+  [    580s] jev: done | openai: seed 2/3 item 136/240 | openai-mini: seed 2/3 item 7/240
+  [    600s] jev: done | openai: seed 2/3 item 150/240 | openai-mini: seed 2/3 item 15/240
+  [    620s] jev: done | openai: seed 2/3 item 164/240 | openai-mini: seed 2/3 item 24/240
+  [    640s] jev: done | openai: seed 2/3 item 179/240 | openai-mini: seed 2/3 item 32/240
+  [    660s] jev: done | openai: seed 2/3 item 190/240 | openai-mini: seed 2/3 item 41/240
+  [    680s] jev: done | openai: seed 2/3 item 203/240 | openai-mini: seed 2/3 item 49/240
+  [    700s] jev: done | openai: seed 2/3 item 217/240 | openai-mini: seed 2/3 item 58/240
+  [    720s] jev: done | openai: seed 2/3 item 229/240 | openai-mini: seed 2/3 item 67/240
+  [    740s] jev: done | openai: seed 3/3 item 4/240 | openai-mini: seed 2/3 item 76/240
+  [    760s] jev: done | openai: seed 3/3 item 18/240 | openai-mini: seed 2/3 item 84/240
+  [    780s] jev: done | openai: seed 3/3 item 32/240 | openai-mini: seed 2/3 item 92/240
+  [    800s] jev: done | openai: seed 3/3 item 46/240 | openai-mini: seed 2/3 item 101/240
+  [    820s] jev: done | openai: seed 3/3 item 61/240 | openai-mini: seed 2/3 item 110/240
+  [    840s] jev: done | openai: seed 3/3 item 75/240 | openai-mini: seed 2/3 item 118/240
+  [    860s] jev: done | openai: seed 3/3 item 90/240 | openai-mini: seed 2/3 item 127/240
+  [    880s] jev: done | openai: seed 3/3 item 104/240 | openai-mini: seed 2/3 item 136/240
+  [    900s] jev: done | openai: seed 3/3 item 116/240 | openai-mini: seed 2/3 item 145/240
+  [    920s] jev: done | openai: seed 3/3 item 130/240 | openai-mini: seed 2/3 item 154/240
+  [    940s] jev: done | openai: seed 3/3 item 143/240 | openai-mini: seed 2/3 item 162/240
+  [    960s] jev: done | openai: seed 3/3 item 155/240 | openai-mini: seed 2/3 item 171/240
+  [    980s] jev: done | openai: seed 3/3 item 169/240 | openai-mini: seed 2/3 item 180/240
+  [   1000s] jev: done | openai: seed 3/3 item 183/240 | openai-mini: seed 2/3 item 186/240
+  [   1020s] jev: done | openai: seed 3/3 item 197/240 | openai-mini: seed 2/3 item 193/240
+  [   1040s] jev: done | openai: seed 3/3 item 209/240 | openai-mini: seed 2/3 item 201/240
+  [   1060s] jev: done | openai: seed 3/3 item 223/240 | openai-mini: seed 2/3 item 210/240
+  [   1080s] jev: done | openai: seed 3/3 item 237/240 | openai-mini: seed 2/3 item 219/240
+  [   1100s] jev: done | openai: done | openai-mini: seed 2/3 item 228/240
+  [   1120s] jev: done | openai: done | openai-mini: seed 2/3 item 236/240
+  [   1140s] jev: done | openai: done | openai-mini: seed 3/3 item 3/240
+  [   1160s] jev: done | openai: done | openai-mini: seed 3/3 item 12/240
+  [   1180s] jev: done | openai: done | openai-mini: seed 3/3 item 21/240
+  [   1200s] jev: done | openai: done | openai-mini: seed 3/3 item 28/240
+  [   1220s] jev: done | openai: done | openai-mini: seed 3/3 item 36/240
+  [   1240s] jev: done | openai: done | openai-mini: seed 3/3 item 45/240
+  [   1260s] jev: done | openai: done | openai-mini: seed 3/3 item 54/240
+  [   1280s] jev: done | openai: done | openai-mini: seed 3/3 item 62/240
+  [   1300s] jev: done | openai: done | openai-mini: seed 3/3 item 70/240
+  [   1320s] jev: done | openai: done | openai-mini: seed 3/3 item 79/240
+  [   1340s] jev: done | openai: done | openai-mini: seed 3/3 item 89/240
+  [   1360s] jev: done | openai: done | openai-mini: seed 3/3 item 98/240
+  [   1380s] jev: done | openai: done | openai-mini: seed 3/3 item 106/240
+  [   1400s] jev: done | openai: done | openai-mini: seed 3/3 item 115/240
+  [   1420s] jev: done | openai: done | openai-mini: seed 3/3 item 123/240
+  [   1440s] jev: done | openai: done | openai-mini: seed 3/3 item 132/240
+  [   1460s] jev: done | openai: done | openai-mini: seed 3/3 item 140/240
+  [   1480s] jev: done | openai: done | openai-mini: seed 3/3 item 147/240
+  [   1500s] jev: done | openai: done | openai-mini: seed 3/3 item 156/240
+  [   1520s] jev: done | openai: done | openai-mini: seed 3/3 item 165/240
+  [   1540s] jev: done | openai: done | openai-mini: seed 3/3 item 174/240
+  [   1560s] jev: done | openai: done | openai-mini: seed 3/3 item 183/240
+  [   1580s] jev: done | openai: done | openai-mini: seed 3/3 item 192/240
+  [   1600s] jev: done | openai: done | openai-mini: seed 3/3 item 201/240
+  [   1620s] jev: done | openai: done | openai-mini: seed 3/3 item 209/240
+  [   1640s] jev: done | openai: done | openai-mini: seed 3/3 item 218/240
+  [   1660s] jev: done | openai: done | openai-mini: seed 3/3 item 226/240
+  [   1680s] jev: done | openai: done | openai-mini: seed 3/3 item 234/240
+  [   1700s] jev: done | openai: done | openai-mini: done
+
+wall clock 1700s

@@ -1,0 +1,17 @@
+# secrets — never commit
+.env
+.envrc
+
+# environments and build junk
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+
+# HuggingFace download cache; build_corpus.py re-creates corpus.jsonl from
+# pinned revisions, so nothing here is evidence.
+.cache/

@@ -1,0 +1,68 @@
+{
+  "spec_hash": "77f2a821072b1862",
+  "backends": [
+    "jev",
+    "openai",
+    "openai-mini",
+    "anthropic-opus",
+    "openai-astra"
+  ],
+  "seeds": 1,
+  "n_items": 240,
+  "sample_seed": 20260920,
+  "windows": [
+    {
+      "backends": [
+        "jev",
+        "openai",
+        "openai-mini"
+      ],
+      "started_utc": "2026-09-19T18:51:53.413128+00:00",
+      "finished_utc": "2026-09-19T19:20:13.472813+00:00",
+      "wall_clock_s": 1700.1,
+      "n_items": 240,
+      "seeds": 3
+    },
+    {
+      "backends": [
+        "anthropic-opus"
+      ],
+      "started_utc": "2026-09-19T19:29:27.746107+00:00",
+      "finished_utc": "2026-09-19T19:42:07.774187+00:00",
+      "wall_clock_s": 760.0,
+      "n_items": 240,
+      "seeds": 1
+    },
+    {
+      "backends": [
+        "openai-astra"
+      ],
+      "started_utc": "2026-09-19T19:56:40.267639+00:00",
+      "finished_utc": "2026-09-19T19:57:40.271138+00:00",
+      "wall_clock_s": 60.0,
+      "n_items": 120,
+      "seeds": 1
+    }
+  ],
+  "started_utc": "2026-09-19T18:51:53.413128+00:00",
+  "finished_utc": "2026-09-19T19:57:40.271138+00:00",
+  "wall_clock_s": 2520.1,
+  "machine": {
+    "platform": "Windows-11-10.0.22631-SP0",
+    "processor": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+    "python": "3.12.10"
+  },
+  "policy": {
+    "review_threshold": 0.35,
+    "action_threshold": 0.7,
+    "severity_block": 2.0
+  },
+  "errors": {},
+  "n_items_by_backend": {
+    "jev": 240,
+    "openai": 240,
+    "openai-mini": 240,
+    "anthropic-opus": 240,
+    "openai-astra": 120
+  }
+}

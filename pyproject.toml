@@ -1,0 +1,19 @@
+[project]
+name = "llm-vs-jev-guardrail"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=5.0.1",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+    "python-dotenv>=1.2.3",
+    "system-one-adapter[anthropic,openai]>=0.2.0",
+    "typesafe-sdk>=0.7.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]

@@ -1,0 +1,124 @@
+{
+  "model": "gpt-6-astra",
+  "n": 120,
+  "accuracy": 0.8583333333333333,
+  "accuracy_strict_borderline": 0.6416666666666667,
+  "gate_sweep": {
+    "0.5": 0.825,
+    "0.6": 0.8083333333333333,
+    "0.7": 0.7583333333333333,
+    "0.8": 0.6916666666666667,
+    "0.9": 0.5916666666666667,
+    "0.95": 0.48333333333333334,
+    "0.99": 0.225
+  },
+  "invalid_rate": 0.0,
+  "mean_repair_attempts": 0.0,
+  "latency_ms": {
+    "p50": 3996.1459999904037,
+    "p95": 6259.8760999972,
+    "p99": 7702.785400033463
+  },
+  "cost": {
+    "cold_usd_per_1k": 17.828999999999997,
+    "warm_measured_usd_per_1k": 17.68575,
+    "warm_modelled_usd_per_1k": 8.73,
+    "cached_tokens_reported": 1910,
+    "prefix_tokens": 1011,
+    "mean_input_tokens": 1162.1083333333333,
+    "mean_output_tokens": 124.15833333333333
+  },
+  "ece": 0.10694999999999998,
+  "reliability": [
+    {
+      "bin": 0.0,
+      "n": 0,
+      "confidence": null,
+      "accuracy": null
+    },
+    {
+      "bin": 0.1,
+      "n": 0,
+      "confidence": null,
+      "accuracy": null
+    },
+    {
+      "bin": 0.2,
+      "n": 0,
+      "confidence": null,
+      "accuracy": null
+    },
+    {
+      "bin": 0.3,
+      "n": 0,
+      "confidence": null,
+      "accuracy": null
+    },
+    {
+      "bin": 0.4,
+      "n": 0,
+      "confidence": null,
+      "accuracy": null
+    },
+    {
+      "bin": 0.5,
+      "n": 4,
+      "confidence": 0.56925,
+      "accuracy": 0.25
+    },
+    {
+      "bin": 0.6,
+      "n": 5,
+      "confidence": 0.64,
+      "accuracy": 0.4
+    },
+    {
+      "bin": 0.7,
+      "n": 10,
+      "confidence": 0.7509,
+      "accuracy": 1.0
+    },
+    {
+      "bin": 0.8,
+      "n": 8,
+      "confidence": 0.84225,
+      "accuracy": 1.0
+    },
+    {
+      "bin": 0.9,
+      "n": 93,
+      "confidence": 0.9742365591397849,
+      "accuracy": 0.9032258064516129
+    }
+  ],
+  "escalation": {
+    "budget": 0.05,
+    "n_escalated": 6,
+    "errors_before": 17,
+    "errors_caught": 2,
+    "residual_error_caught": 0.11764705882352941,
+    "accuracy_after": 0.875
+  },
+  "confusion": {
+    "benign": {
+      "PASS": 22,
+      "REVIEW": 0,
+      "BLOCK": 8
+    },
+    "borderline": {
+      "PASS": 26,
+      "REVIEW": 3,
+      "BLOCK": 1
+    },
+    "injection": {
+      "PASS": 6,
+      "REVIEW": 2,
+      "BLOCK": 22
+    },
+    "jailbreak": {
+      "PASS": 0,
+      "REVIEW": 0,
+      "BLOCK": 30
+    }
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "n_items": 20,
+  "question_order": [
+    "category",
+    "severity",
+    "instruction_to_model",
+    "requests_disallowed_content",
+    "contains_pii"
+  ],
+  "curve": {
+    "jev": [
+      {
+        "n_questions": 1,
+        "model": "jev-1.13.0",
+        "mean_input_tokens": 674.2,
+        "mean_output_tokens": 57.1,
+        "usd_per_1k": 0.028316400000000002,
+        "p50_latency_ms": 407.4624999775551,
+        "invalid": 0
+      },
+      {
+        "n_questions": 2,
+        "model": "jev-1.13.0",
+        "mean_input_tokens": 794.2,
+        "mean_output_tokens": 71.1,
+        "usd_per_1k": 0.0333564,
+        "p50_latency_ms": 410.5172999552451,
+        "invalid": 0
+      },
+      {
+        "n_questions": 3,
+        "model": "jev-1.13.0",
+        "mean_input_tokens": 886.2,
+        "mean_output_tokens": 89.1,
+        "usd_per_1k": 0.0372204,
+        "p50_latency_ms": 405.4935000021942,
+        "invalid": 0
+      },
+      {
+        "n_questions": 4,
+        "model": "jev-1.13.0",
+        "mean_input_tokens": 970.2,
+        "mean_output_tokens": 109.0,
+        "usd_per_1k": 0.040748400000000004,
+        "p50_latency_ms": 401.8140999833122,
+        "invalid": 0
+      },
+      {
+        "n_questions": 5,
+        "model": "jev-1.13.0",
+        "mean_input_tokens": 1054.2,
+        "mean_output_tokens": 127.2,
+        "usd_per_1k": 0.0442764,
+        "p50_latency_ms": 409.0062999748625,
+        "invalid": 0
+      }
+    ],
+    "openai": [
+      {
+        "n_questions": 1,
+        "model": "gpt-5.1",
+        "mean_input_tokens": 629.7,
+        "mean_output_tokens": 49.9,
+        "usd_per_1k": 1.286125,
+        "p50_latency_ms": 1088.8764999690466,
+        "invalid": 0
+      },
+      {
+        "n_questions": 2,
+        "model": "gpt-5.1",
+        "mean_input_tokens": 798.7,
+        "mean_output_tokens": 75.7,
+        "usd_per_1k": 1.755375,
+        "p50_latency_ms": 1230.0990999792702,
+        "invalid": 0
+      },
+      {
+        "n_questions": 3,
+        "model": "gpt-5.1",
+        "mean_input_tokens": 921.7,
+        "mean_output_tokens": 80.9,
+        "usd_per_1k": 1.9611250000000002,
+        "p50_latency_ms": 1232.779500016477,
+        "invalid": 0
+      },
+      {
+        "n_questions": 4,
+        "model": "gpt-5.1",
+        "mean_input_tokens": 1039.7,
+        "mean_output_tokens": 87.55,
+        "usd_per_1k": 2.175125,
+        "p50_latency_ms": 1319.363999995403,
+        "invalid": 0
+      },
+      {
+        "n_questions": 5,
+        "model": "gpt-5.1",
+        "mean_input_tokens": 1156.7,
+        "mean_output_tokens": 95.8,
+        "usd_per_1k": 2.403875,
+        "p50_latency_ms": 1437.9382000188343,
+        "invalid": 0
+      }
+    ],
+    "openai-mini": [
+      {
+        "n_questions": 1,
+        "model": "gpt-5-mini",
+        "mean_input_tokens": 629.7,
+        "mean_output_tokens": 58.0,
+        "usd_per_1k": 0.273425,
+        "p50_latency_ms": 1548.4403999871574,
+        "invalid": 0
+      },
+      {
+        "n_questions": 2,
+        "model": "gpt-5-mini",
+        "mean_input_tokens": 798.7,
+        "mean_output_tokens": 84.0,
+        "usd_per_1k": 0.367675,
+        "p50_latency_ms": 1968.321799999103,
+        "invalid": 0
+      },
+      {
+        "n_questions": 3,
+        "model": "gpt-5-mini",
+        "mean_input_tokens": 921.7,
+        "mean_output_tokens": 96.75,
+        "usd_per_1k": 0.423925,
+        "p50_latency_ms": 1918.964300013613,
+        "invalid": 0
+      },
+      {
+        "n_questions": 4,
+        "model": "gpt-5-mini",
+        "mean_input_tokens": 1039.7,
+        "mean_output_tokens": 101.8,
+        "usd_per_1k": 0.46352499999999996,
+        "p50_latency_ms": 1817.0795000041835,
+        "invalid": 0
+      },
+      {
+        "n_questions": 5,
+        "model": "gpt-5-mini",
+        "mean_input_tokens": 1156.7,
+        "mean_output_tokens": 127.3,
+        "usd_per_1k": 0.543775,
+        "p50_latency_ms": 2564.18649997795,
+        "invalid": 0
+      }
+    ]
+  }
+}

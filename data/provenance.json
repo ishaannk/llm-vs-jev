@@ -1,0 +1,39 @@
+{
+  "sources": {
+    "deepset/prompt-injections": {
+      "revision": "4f61ecb038e9c3fb77e21034b22511b523772cdd",
+      "licence": "apache-2.0",
+      "url": "https://huggingface.co/datasets/deepset/prompt-injections"
+    },
+    "jackhhao/jailbreak-classification": {
+      "revision": "2f2ceeb39658696fd3f462403562b6eea5306287",
+      "licence": "apache-2.0",
+      "url": "https://huggingface.co/datasets/jackhhao/jailbreak-classification"
+    },
+    "natolambert/xstest-v2-copy": {
+      "revision": "b71afe2a6d10e5a6254ea8bcb006c48b095a15d5",
+      "licence": "cc-by-4.0",
+      "url": "https://huggingface.co/datasets/natolambert/xstest-v2-copy"
+    },
+    "bench-llm/or-bench": {
+      "revision": "e36d8b80e81837c8a8f264bbb2a49f1b32c7e272",
+      "licence": "cc-by-4.0",
+      "url": "https://huggingface.co/datasets/bench-llm/or-bench"
+    }
+  },
+  "sample_seed": 20260920,
+  "per_class": 200,
+  "counts": {
+    "benign": 200,
+    "borderline": 200,
+    "injection": 200,
+    "jailbreak": 200
+  },
+  "median_chars": {
+    "benign": 118,
+    "borderline": 108,
+    "injection": 120,
+    "jailbreak": 1575
+  },
+  "corpus_sha256": "da2c9cc1535c0929"
+}
